@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Appartement Beheer V2</string>
+    
+    <!-- General -->
+    <string name="welcome">Welkom</string>
+    <string name="apartment_management">Appartement Beheer</string>
+    <string name="save">Opslaan</string>
+    <string name="cancel">Annuleren</string>
+    <string name="add">Toevoegen</string>
+    <string name="edit">Bewerken</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nee</string>
+    <string name="calculate">Berekenen</string>
+    <string name="type">Type</string>
+    <string name="option_edit">Bewerken</string>
+    <string name="option_delete">Verwijderen</string>
+    
+    <!-- Hints -->
+    <string name="hint_door_number">Deurnummer</string>
+    <string name="hint_tenant_name_optional">Huurder Naam (Optioneel)</string>
+    <string name="hint_expense_description">Beschrijving (Bijv: Lift)</string>
+    <string name="hint_amount">Bedrag (€)</string>
+    <string name="hint_transaction_description">Beschrijving (Bijv: Liftonderhoud)</string>
+    <string name="hint_percentage_example">Bijv: 20</string>
+    <string name="hint_inflation_rate">Verwachte Inflatie (%)</string>
+    
+    <!-- Toggles -->
+    <string name="toggle_inflation_on">VERHOGING TOEGEPAST (ONGEDAAN MAKEN)</string>
+    <string name="toggle_inflation_off">INFLATIE OP ALLE APPARTEMENTEN TOEPASSEN</string>
+    
+    <!-- Placeholders -->
+    <string name="placeholder_date">Februari 2026</string>
+    <string name="placeholder_amount">€17.500</string>
+    <string name="placeholder_period">Februari Periode</string>
+    <string name="placeholder_percent">15</string>
+    <string name="placeholder_filename">Bestandsnaam.pdf</string>
+    <string name="placeholder_note_content">Inhoud notitie komt hier.</string>
+    <string name="placeholder_door_number">Appartement 101</string>
+    <string name="placeholder_tenant_name">Jan Jansen</string>
+    
+    <!-- Apartment Detail -->
+    <string name="apartment_detail">Appartement Details</string>
+    <string name="general_info">Algemene Informatie</string>
+    <string name="apartment_door_number_prefix">Appartement %d</string>
+    <string name="apartment_tenant_prefix">Huurder: %s</string>
+    <string name="tenant_not_added">(Nog niet toegevoegd)</string>
+    <string name="rent_amount_format">Huurprijs: € %.2f</string>
+    <string name="aidat_amount_format">Bijdrage: € %.2f</string>
+    <string name="resident_count_prefix">Aantal Bewoners: %d</string>
+    <string name="resident_count_empty">Aantal Bewoners: -</string>
+    <string name="address_prefix">Adres: %s</string>
+    <string name="address_empty">Adres: -</string>
+    <string name="notes_title">Storingen en Notities</string>
+    <string name="files_title">Bestanden (Contract enz.)</string>
+    <string name="save_note">Notitie Opslaan</string>
+    <string name="upload_file">Bestand Uploaden (PDF/Foto)</string>
+    <string name="hint_add_note">Nieuwe notitie toevoegen...</string>
+    
+    <!-- Dialogs -->
+    <string name="dialog_edit_resident_count_title">Aantal Bewoners Bewerken</string>
+    <string name="dialog_edit_address_title">Adres Bewerken</string>
+    <string name="dialog_edit_tenant_title">Huurder Naam Bewerken</string>
+    <string name="dialog_edit_rent_title">Huurprijs Bewerken</string>
+    <string name="dialog_edit_aidat_title">Bijdrage Bewerken</string>
+    <string name="rent_payment_label">Huur Betaling</string>
+    <string name="aidat_payment_label">Bijdrage Betaling</string>
+    <string name="total_rent_collected">Totaal Huur</string>
+    <string name="total_aidat_collected">Totaal Bijdrage</string>
+    <string name="filter_all">Alles</string>
+    <string name="filter_rent">Huur</string>
+    <string name="filter_aidat">Bijdrage</string>
+    <string name="currency_config_button">KOERS</string>
+    <string name="dialog_currency_title">Wisselkoers Instellen</string>
+    <string name="dialog_currency_message">Voer de huidige Euro-koers in om huur en bijdragen ook in Euro\'s te zien.</string>
+    <string name="dialog_currency_hint">1 Euro = ? TL</string>
+
+    <!-- Adapter Strings -->
+    <string name="tenant_label_prefix">Huurder: %s</string>
+    <string name="tenant_label_empty">Huurder: -</string>
+    <string name="label_empty">Leeg</string>
+
+    <!-- Report Strings -->
+    <string name="financial_summary_title">Financieel Overzicht %s</string>
+    <string name="label_income">Inkomsten</string>
+    <string name="label_expense">Uitgaven</string>
+    <string name="label_net_profit">Netto Winst</string>
+    <string name="chart_label_yearly">Inkomsten (Pos) / Uitgaven (Neg)</string>
+    <string name="chart_label_monthly">Maandelijkse Status</string>
+    <string name="prediction_text_format">Geschatte mnd. inkomsten volgend jaar: € %.2f (%%% .1f Stijging)</string>
+    <string name="aidat_prediction_title">Bijdrage Verhoging Volgend Jaar</string>
+    <string name="aidat_prediction_hint">Geschatte Bijdrage Inkomsten: -</string>
+    <string name="aidat_prediction_result_format">Geschatte mnd. bijdrage volgend jaar: € %.2f (%%% .1f Stijging)</string>
+    <string name="btn_update_aidat">Bijdrage Prijzen Updaten</string>
+    <string name="btn_apply_increase">Verhoging Toepassen</string>
+    <string name="note_aidat_update">Let op: Dit werkt alle bijdrage prijzen permanent bij.</string>
+    <string name="toast_inflation_applied">%%% .1f verhoging toegepast op alle appartementen.</string>
+    <string name="toast_inflation_reverted">Verhoging ongedaan gemaakt.</string>
+    <string name="toast_aidat_inflation_applied">%%% .1f verhoging toegepast op alle bijdragen.</string>
+    <string name="toast_aidat_inflation_reverted">Bijdrage verhoging ongedaan gemaakt.</string>
+
+    <!-- Expense Dialog Strings -->
+    <string name="dialog_title_add_expense">Uitgave Toevoegen</string>
+    <string name="dialog_title_edit_expense">Uitgave Bewerken</string>
+    <string name="dialog_title_delete_expense">Uitgave Verwijderen</string>
+    <string name="dialog_msg_delete_expense">Wilt u deze uitgave verwijderen?</string>
+    <string name="dialog_option_title">Kies Actie</string>
+    <string name="btn_update">Bijwerken</string>
+    <string name="checkbox_recurring">Deze uitgave elke maand herhalen (Vast)</string>
+    <string name="expense_type_fixed">Vaste Lasten</string>
+    <string name="expense_type_extra">Extra Uitgaven</string>
+    <string name="expense_type_fixture">Inventaris</string>
+    <string name="expense_type_other">Overige</string>
+    <string name="toast_expense_saved">Uitgave opgeslagen</string>
+    <string name="toast_expense_updated">Uitgave bijgewerkt</string>
+    <string name="toast_expense_deleted">Uitgave verwijderd</string>
+    <string name="dialog_delete_file_title">Bestand Verwijderen</string>
+    <string name="dialog_delete_file_message">Weet u zeker dat u dit bestand wilt verwijderen?</string>
+    <string name="add_new_apartment">Nieuw Appartement Toevoegen</string>
+    <string name="dialog_title_delete_apartment">Appartement Verwijderen</string>
+    <string name="dialog_msg_delete_apartment">Appartement %d verwijderen? Dit kan niet ongedaan worden gemaakt.</string>
+    <string name="toast_apartment_deleted">Appartement verwijderd</string>
+    <string name="toast_apartment_added">Appartement toegevoegd</string>
+    <string name="add_new_transaction">Nieuwe Transactie Toevoegen</string>
+    <string name="next_year_prediction">Volgend Jaar Prognose</string>
+    <string name="expected_increase_rate">Verwachte Stijging (%)</string>
+    
+    <!-- Toasts -->
+    <string name="toast_resident_count_updated">Aantal bewoners bijgewerkt</string>
+    <string name="toast_address_updated">Adres bijgewerkt</string>
+    <string name="toast_tenant_name_updated">Huurder naam bijgewerkt</string>
+    <string name="toast_rent_updated">Huurprijs bijgewerkt</string>
+    <string name="toast_aidat_updated">Bijdrage bedrag bijgewerkt</string>
+    <string name="toast_note_deleted">Notitie verwijderd</string>
+    <string name="toast_note_saved">Notitie opgeslagen</string>
+    <string name="toast_file_deleted">Bestand verwijderd</string>
+    
+    <!-- Errors -->
+    <string name="error_permission_denied">Fout: Geen toestemming</string>
+    <string name="error_file_open">Bestand kon niet worden geopend: %s</string>
+    
+    <!-- Expenses & Transactions -->
+    <string name="expense_title">Uitgave Titel</string>
+    <string name="monthly_expenses">Maandelijkse Uitgaven</string>
+    <string name="income_aidat">Inkomsten (Bijdrage)</string>
+    <string name="expense">Uitgave</string>
+    <string name="expense_type">Uitgave Type</string>
+    <string name="note_fixed_expenses_auto">* Vaste lasten worden elke maand automatisch toegevoegd.</string>
+    
+    <!-- Reports & Dashboard -->
+    <string name="reports_and_analysis">Rapporten en Analyse</string>
+    <string name="monthly_report_detail">Maandelijks Rapport Detail</string>
+    <string name="next_year_rent_prediction">Volgend Jaar Huur Prognose</string>
+    <string name="note_update_rent">* Let op: Dit werkt de huurprijzen van alle appartementen bij.</string>
+    <string name="collected_this_month">Deze Maand Opgehaald</string>
+    <string name="apartment_list">Appartementenlijst</string>
+    <string name="zero_paid">0 Betaald</string>
+    <string name="zero_unpaid">0 Niet Betaald</string>
+    
+    <!-- Placeholders (used in layouts for preview) -->
+    <string name="placeholder_financial_summary">Financieel Overzicht 2026</string>
+    <string name="placeholder_income">Inkomsten:\n€0.00</string>
+    <string name="placeholder_expense">Uitgaven:\n€0.00</string>
+    <string name="placeholder_net">Netto:\n€0.00</string>
+    <string name="placeholder_prediction">Geschatte Nieuwe Inkomsten: -</string>
+    <string name="paid_status_format">%d/%d Betaald</string>
+    <string name="currency_symbol">€</string>
+
+    <!-- Navigation Menu -->
+    <string name="nav_home">Home</string>
+    <string name="nav_expenses">Uitgaven</string>
+    <string name="nav_apartments">Appartementen</string>
+    <string name="nav_reports">Rapporten</string>
+    <string name="paid">Betaald</string>
+</resources>

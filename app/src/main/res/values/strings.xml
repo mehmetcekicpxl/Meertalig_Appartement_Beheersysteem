@@ -1,0 +1,174 @@
+<resources>
+    <string name="app_name">Apartman Yönetimi V2</string>
+    
+    <!-- General -->
+    <string name="welcome">Hoş Geldiniz</string>
+    <string name="apartment_management">Apartman Yönetimi</string>
+    <string name="save">Kaydet</string>
+    <string name="cancel">İptal</string>
+    <string name="add">Ekle</string>
+    <string name="edit">Düzenle</string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+    <string name="calculate">Hesapla</string>
+    <string name="type">Tür</string>
+    <string name="option_edit">Düzenle</string>
+    <string name="option_delete">Sil</string>
+    
+    <!-- Hints -->
+    <string name="hint_door_number">Kapı No</string>
+    <string name="hint_tenant_name_optional">Kiracı Adı (İsteğe bağlı)</string>
+    <string name="hint_expense_description">Açıklama (Örn: Asansör)</string>
+    <string name="hint_amount">Tutar (TL)</string>
+    <string name="hint_transaction_description">Açıklama (Örn: Asansör Bakımı)</string>
+    <string name="hint_percentage_example">Örn: 20</string>
+    <string name="hint_inflation_rate">Beklenen Enflasyon Oranı (%)</string>
+    
+    <!-- Toggles -->
+    <string name="toggle_inflation_on">ZAM UYGULANDI (GERİ AL)</string>
+    <string name="toggle_inflation_off">ENFLASYON ORANINI TÜM DAİRELERE UYGULA</string>
+    
+    <!-- Placeholders -->
+    <string name="placeholder_date">Şubat 2026</string>
+    <string name="placeholder_amount">₺17.500</string>
+    <string name="placeholder_period">Şubat Dönemi</string>
+    <string name="placeholder_percent">15</string>
+    <string name="placeholder_filename">Bestandsnaam.pdf</string>
+    <string name="placeholder_note_content">Not içeriği buraya gelecek.</string>
+    <string name="placeholder_door_number">Daire 101</string>
+    <string name="placeholder_tenant_name">Ahmet Yılmaz</string>
+    
+    <!-- Apartment Detail -->
+    <string name="apartment_detail">Daire Detayı</string>
+    <string name="general_info">Genel Bilgiler</string>
+    <string name="apartment_door_number_prefix">Daire %d</string>
+    <string name="apartment_tenant_prefix">Kiracı: %s</string>
+    <string name="tenant_not_added">(Henüz eklenmedi)</string>
+    <string name="rent_amount_format">Kira Bedeli: %.2f TL</string>
+    <string name="aidat_amount_format">Aidat: %.2f TL</string>
+    <string name="resident_count_prefix">Kişi Sayısı: %d</string>
+    <string name="resident_count_empty">Kişi Sayısı: -</string>
+    <string name="address_prefix">Adres: %s</string>
+    <string name="address_empty">Adres: -</string>
+    <string name="notes_title">Arıza ve Notlar</string>
+    <string name="files_title">Dosyalar (Sözleşme vb.)</string>
+    <string name="save_note">Not Kaydet</string>
+    <string name="upload_file">Dosya Yükle (PDF/Foto)</string>
+    <string name="hint_add_note">Yeni not ekle...</string>
+    
+    <!-- Dialogs -->
+    <string name="dialog_edit_resident_count_title">Kişi Sayısı Düzenle</string>
+    <string name="dialog_edit_address_title">Adres Bilgisi Düzenle</string>
+    <string name="dialog_edit_tenant_title">Kiracı Adını Düzenle</string>
+    <string name="dialog_edit_rent_title">Kira Bedelini Düzenle</string>
+    <string name="dialog_edit_aidat_title">Aidat Bedelini Düzenle</string>
+    <string name="rent_payment_label">Kira Ödemesi</string>
+    <string name="aidat_payment_label">Aidat Ödemesi</string>
+    <string name="total_rent_collected">Toplam Kira</string>
+    <string name="total_aidat_collected">Toplam Aidat</string>
+    <string name="filter_all">Hepsi</string>
+    <string name="filter_rent">Kira</string>
+    <string name="filter_aidat">Aidat</string>
+    <string name="currency_config_button">DÖVİZ</string>
+    <string name="dialog_currency_title">Döviz Kuru Ayarla</string>
+    <string name="dialog_currency_message">Kira ve aidatları Euro cinsinden de görmek için güncel Euro kurunu giriniz.</string>
+    <string name="dialog_currency_hint">1 Euro kaç TL?</string>
+
+    <!-- Adapter Strings -->
+    <string name="tenant_label_prefix">Kiracı: %s</string>
+    <string name="tenant_label_empty">Kiracı: -</string>
+    <string name="label_empty">Boş</string>
+
+    <!-- Report Strings -->
+    <string name="financial_summary_title">Finansal Özet %s</string>
+    <string name="label_income">Gelir</string>
+    <string name="label_expense">Gider</string>
+    <string name="label_net_profit">Net Kar</string>
+    <string name="chart_label_yearly">Gelir (Pozitif) / Gider (Negatif)</string>
+    <string name="chart_label_monthly">Aylık Durum</string>
+    <string name="prediction_text_format">Gelecek yıl aylık tahmini gelir: %.2f TL (%%% .1f Artış)</string>
+    <string name="aidat_prediction_title">Gelecek Yıl Aidat Artışı</string>
+    <string name="aidat_prediction_hint">Tahmini Aidat Geliri: -</string>
+    <string name="aidat_prediction_result_format">Gelecek yıl aylık tahmini aidat geliri: %.2f TL (%%% .1f Artış)</string>
+    <string name="btn_update_aidat">Aidat Fiyatlarını Güncelle</string>
+    <string name="btn_apply_increase">Zammı Uygula</string>
+    <string name="note_aidat_update">Not: Bu işlem tüm aidat fiyatlarını kalıcı olarak günceller.</string>
+    <string name="toast_inflation_applied">%%% .1f zam tüm dairelere uygulandı.</string>
+    <string name="toast_inflation_reverted">Zam geri alındı.</string>
+    <string name="toast_aidat_inflation_applied">%%% .1f zam tüm aidatlara uygulandı.</string>
+    <string name="toast_aidat_inflation_reverted">Aidat zammı geri alındı.</string>
+
+    <!-- Expense Dialog Strings -->
+    <string name="dialog_title_add_expense">Gider Ekle</string>
+    <string name="dialog_title_edit_expense">Gider Düzenle</string>
+    <string name="dialog_title_delete_expense">Gideri Sil</string>
+    <string name="dialog_msg_delete_expense">Bu gider kaydı silinsin mi?</string>
+    <string name="dialog_option_title">İşlem Seçin</string>
+    <string name="btn_update">Güncelle</string>
+    <string name="checkbox_recurring">Bu gider her ay tekrarlansın (Sabit)</string>
+    <string name="expense_type_fixed">Sabit Gider</string>
+    <string name="expense_type_extra">Ekstra Gider</string>
+    <string name="expense_type_fixture">Demirbaş</string>
+    <string name="expense_type_other">Diğer</string>
+    <string name="toast_expense_saved">Gider kaydedildi</string>
+    <string name="toast_expense_updated">Gider güncellendi</string>
+    <string name="toast_expense_deleted">Gider silindi</string>
+    <string name="dialog_delete_file_title">Dosyayı Sil</string>
+    <string name="dialog_delete_file_message">Bu dosyayı silmek istediğinize emin misiniz?</string>
+    <string name="add_new_apartment">Yeni Daire Ekle</string>
+    <string name="dialog_title_delete_apartment">Daireyi Sil</string>
+    <string name="dialog_msg_delete_apartment">Daire %d silinsin mi? Bu işlem geri alınamaz.</string>
+    <string name="toast_apartment_deleted">Daire silindi</string>
+    <string name="toast_apartment_added">Daire eklendi</string>
+    <string name="add_new_transaction">Yeni İşlem Ekle</string>
+    <string name="next_year_prediction">Gelecek Yıl Tahmini</string>
+    <string name="expected_increase_rate">Beklenen Artış Oranı (%)</string>
+    
+    <!-- Toasts -->
+    <string name="toast_resident_count_updated">Kişi sayısı güncellendi</string>
+    <string name="toast_address_updated">Adres güncellendi</string>
+    <string name="toast_tenant_name_updated">Kiracı adı güncellendi</string>
+    <string name="toast_rent_updated">Kira bedeli güncellendi</string>
+    <string name="toast_aidat_updated">Aidat bedeli güncellendi</string>
+    <string name="toast_note_deleted">Not silindi</string>
+    <string name="toast_note_saved">Not kaydedildi</string>
+    <string name="toast_file_deleted">Dosya silindi</string>
+    
+    <!-- Errors -->
+    <string name="error_permission_denied">Hata: İzin alınamadı</string>
+    <string name="error_file_open">Dosya açılamadı: %s</string>
+    
+    <!-- Expenses & Transactions -->
+    <string name="expense_title">Gider Başlığı</string>
+    <string name="monthly_expenses">Aylık Giderler</string>
+    <string name="income_aidat">Gelir (Aidat)</string>
+    <string name="expense">Gider</string>
+    <string name="expense_type">Gider Türü</string>
+    <string name="note_fixed_expenses_auto">* Sabit giderler her ay otomatik olarak eklenir.</string>
+    
+    <!-- Reports & Dashboard -->
+    <string name="reports_and_analysis">Raporlar ve Analiz</string>
+    <string name="monthly_report_detail">Aylık Rapor Detayı</string>
+    <string name="next_year_rent_prediction">Gelecek Yıl Kira Tahmini</string>
+    <string name="note_update_rent">* Not: Bu işlem tüm dairelerin mevcut kira bedellerini günceller.</string>
+    <string name="collected_this_month">Bu Ay Toplanan</string>
+    <string name="apartment_list">Daire Listesi</string>
+    <string name="zero_paid">0 Ödendi</string>
+    <string name="zero_unpaid">0 Ödenmedi</string>
+    
+    <!-- Placeholders (used in layouts for preview) -->
+    <string name="placeholder_financial_summary">Finansal Özet 2026</string>
+    <string name="placeholder_income">Gelir:\n0.00 TL</string>
+    <string name="placeholder_expense">Gider:\n0.00 TL</string>
+    <string name="placeholder_net">Net:\n0.00 TL</string>
+    <string name="placeholder_prediction">Tahmini Yeni Gelir: -</string>
+    <string name="paid_status_format">%d/%d Ödedi</string>
+    <string name="currency_symbol">₺</string>
+
+    <!-- Navigation Menu -->
+    <string name="nav_home">Ana Sayfa</string>
+    <string name="nav_expenses">Giderler</string>
+    <string name="nav_apartments">Daireler</string>
+    <string name="nav_reports">Raporlar</string>
+    <string name="paid">Ödendi</string>
+</resources>
