@@ -4,15 +4,15 @@
 
 Deze repository bevat de broncode en bijbehorende documentatie voor het **Meertalig Appartement Beheersysteem** project. Dit project is ontwikkeld met een focus op gebruiksvriendelijkheid, schaalbaarheid en schone code.
 
-## âœ¨ Functionaliteiten
+##  Functionaliteiten
 - Volledige meertalige ondersteuning voor diverse gebruikers
 - Overzicht en beheer van complexe wooneenheden
 - Betalingsregistratie en communicatie in voorkeurstaal
 
-## ðŸ› ï¸ Gebruikte TechnologieÃ«n
+## Gebruikte TechnologieÃ«n
 - **Android**
 
-## ðŸ“¸ Screenshots
+## Screenshots
 *(Voeg later screenshots toe in de screenshots map en link ze hier)*
 
 `html
@@ -20,7 +20,7 @@ Deze repository bevat de broncode en bijbehorende documentatie voor het **Meerta
 <!-- <img src="./screenshots/app_home.png" alt="Home Screen" width="300"/> -->
 `
 
-## ðŸš€ Installatie & Gebruik
+## Installatie & Gebruik
 Open dit project in Android Studio en bouw de APK.
 
 ---
