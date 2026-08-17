@@ -9,7 +9,7 @@ Deze repository bevat de broncode en bijbehorende documentatie voor het **Meerta
 - Overzicht en beheer van complexe wooneenheden
 - Betalingsregistratie en communicatie in voorkeurstaal
 
-## Gebruikte TechnologieÃ«n
+## Gebruikte Technologieën
 - **Android**
 
 ## Screenshots
