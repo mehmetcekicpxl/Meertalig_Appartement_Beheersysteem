@@ -1,25 +1,25 @@
-# Geçiş ve Devir Notları
+# Handover & Migration Notes
 
-Bu dosya, projenin `Apartman_Yonetim_Sistemi`nden kopyalanması ve yeni bir pencerede çalışmaya devam edilmesi üzerine oluşturulmuştur.
+This document was created following the migration from the original repository (`Apartment_Management_System`) to establish a clean handover for ongoing development.
 
-## Mevcut Durum
-- Proje başarıyla kopyalandı.
-- Henüz kod değişikliği yapılmadı.
-- Planlama tamamlandı.
+## Current Status
+- Project structure successfully migrated.
+- Baseline setup verified; no code modifications introduced yet.
+- Architecture and implementation roadmap finalized.
 
-## Uygulama Planı (Sıradaki Adımlar)
+## Implementation Roadmap (Next Steps)
 
-### 1. Internationalization (i18n) - Çoklu Dil
-- [ ] Java dosyalarındaki tüm Türkçe metinleri `strings.xml` içine taşı.
-- [ ] XML dosyalarındaki (layout) tüm metinleri `strings.xml` içine taşı.
-- [ ] `res/values-nl/strings.xml` oluştur ve Flamanca çevirileri ekle.
-- [ ] Para birimini dile göre ayarla (TL / €).
+### 1. Internationalization (i18n) & Localization
+- [ ] Extract all hardcoded strings from Java files into `strings.xml`.
+- [ ] Extract all UI layout text into `strings.xml`.
+- [ ] Create `res/values-nl/strings.xml` and provide Dutch translations.
+- [ ] Implement dynamic currency formatting based on locale (TL / €).
 
-### 2. Aidat Özelliği
-- [ ] `DatabaseHelper` sınıfında tablo versiyonunu artır ve `aidat_amount` (Real/Double) sütunu ekle.
-- [ ] `Apartment` modeline `aidatAmount` alanını ekle.
-- [ ] `ApartmentDetailActivity` içinde Aidat düzenleme ve görüntüleme alanı ekle.
-- [ ] Kira ve Aidat'ın ayrı ayrı girilebilmesini sağla.
+### 2. Maintenance Fee (Aidat) Feature
+- [ ] Increment database schema version in `DatabaseHelper` and add `aidat_amount` (Real/Double) column.
+- [ ] Update `Apartment` data model with the `aidatAmount` field.
+- [ ] Add view and edit controls for maintenance fees in `ApartmentDetailActivity`.
+- [ ] Ensure clear separation between Rent and Maintenance Fee entries.
 
-## Yeni Asistana Talimat
-Bu dosyayı gören yeni asistan, yukarıdaki adımları sırasıyla uygulamaya başlayabilir.
+## Developer / Agent Instructions
+Any contributor or AI assistant continuing this project should follow the roadmap steps sequentially, ensuring modularity and clean commits.
